@@ -14,4 +14,10 @@ class Voice {
             animal.makeVoice();
         }
     }
+
+    void templateMethod() {
+        prepareVoice();
+        hear();
+    }
 }
+
